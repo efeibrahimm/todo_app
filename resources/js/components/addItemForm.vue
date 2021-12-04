@@ -49,8 +49,10 @@ input{
     background: #f7f7f7;
     border: 0px;
     outline: none;
-    padding: 8px;
+    padding: 12px;
     margin-right: 10px;
+    width: 250px;
+    border-radius: 10px;
 
 }
 .plus{
@@ -60,6 +62,7 @@ input{
     background: greenyellow;
     padding: 10px 15px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .active{
     color: #f7f7f7;

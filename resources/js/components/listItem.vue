@@ -7,7 +7,7 @@
 
     <span :class="[item.completed ? 'completed' : '','itemText' ]">{{item.name}}</span>
     </div>
-    <button @click="removeItem()" class="trashcan"> X</button>
+    <button @click="removeItem()" class="plus1"> X</button>
 </div>
 </template>
 
@@ -62,5 +62,14 @@ export default {
 .trashcan{
     background: red;
     color: aliceblue;
+}
+.plus1{
+
+    color: aliceblue;
+    background: grey;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
 }
 </style>
